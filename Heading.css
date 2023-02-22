@@ -1,0 +1,101 @@
+/*Start of Part 1*/
+.Heading{
+    /*Configuring The Header text attributes*/
+    font-family: 'Niagara Solid', sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    color: #FFD793;    
+    /* Giving some breathing room to the text by spacing it out*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    -ms-flex-align: start;
+    background-color: #100D0B;
+    max-height: 35px;
+    height: auto;
+    width: 100%;
+    align-items: center;
+    /*Configuring the Size of the Header*/
+    margin-top: -8.5px;
+    margin-left: -8.5px;
+    position:absolute;
+    
+    
+
+}
+/*
+@font-face {
+    font-family: "Parchment";
+    src: url("https://fontsforyou.com/fonts/p/Parchment.ttf");
+}
+*/
+
+/*Logo Image*/
+.logo {
+    width: 90px;
+    height: 90px;
+}
+
+/*Bar Image position*/
+.landImage{
+    display:block;
+    max-block-size: 10;
+    margin-left: -8.5px;
+    margin-right: -7.5px;
+}
+
+/*Bar Image resolution*/
+img{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-top: 25px;
+    opacity: 0.8;
+
+}
+
+/*White Text over the Bar Image*/
+.barText2{
+    display:flex;
+    font-family: 'Niagara Solid', sans-serif;
+    font-weight: lighter;
+    color: aliceblue;
+    font-size: 60px;
+    position: absolute;
+    top: -30px;
+    left: 20px;
+}
+
+/*Brown text under the first Bar Image text*/
+.barText1{
+    display:flex;
+    font-family: 'Niagara Solid', sans-serif;
+    font-weight: lighter;
+    text-shadow: -3px 3px 6px #100D0B;
+    color: #802525;
+    font-size: 60px;
+    position: absolute;
+    top: -30px;
+    left: 18.8px;
+    opacity: 0.77;
+}
+
+
+.rectangleBox{
+    position: absolute;   
+    display: flex;
+    border: 2px solid #FFD793;
+    background-color: #1e0b0bcb;
+    background-blend-mode: multiply;
+    width: 90px;
+    height: 25px;
+    font-family: 'Niagara Solid', sans-serif;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    color: #FFD793;
+    left: 20px; 
+    top: 250px;
+}
+
+/* END OF LANDING PAGE PART 1*/
