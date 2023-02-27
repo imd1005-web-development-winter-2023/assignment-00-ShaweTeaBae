@@ -42,8 +42,9 @@
 
 /*Logo Image*/
 .logo {
-    width: 210px;
-    height: 260px;
+    width: 190px;
+    height: -100px;
+    margin-top:130px;
 }
 
 /*Bar Image position*/
@@ -107,7 +108,7 @@ img{
     align-items: center;
     color: #FFD793;
     left: 55px; 
-    top: 660px;
+    top: 610px;
     cursor: pointer;
     box-shadow: 0 0 20px rgba(35, 27, 17, 0.638);
     -webkit-transition-duration: 0.3s;
@@ -151,7 +152,7 @@ background-color: #FFD793;
     font-family: 'Niagara Solid', sans-serif;
     font-weight: lighter;
     font-size: 150px;
-    top: 1050px;
+    top: 1250px;
     left: 375px;
 }
 
@@ -164,7 +165,7 @@ background-color: #FFD793;
     font-family: 'Niagara Solid', sans-serif;
     font-weight: lighter;
     font-size: 150px;
-    top: 1050px;
+    top: 1250px;
     left: 370px;
     text-shadow: -0.5px 1px 3px #0e0606ab;
 }
@@ -220,7 +221,7 @@ background-color: #FFD793;
     font-family: 'Niagara Solid', sans-serif;
     font-weight: lighter;
     position: absolute;
-    top: 1500px;
+    top: 1600px;
     left: 50px;
 }
 
@@ -230,7 +231,7 @@ background-color: #FFD793;
     font-family:'Niagara Solid', sans-serif;
     font-weight: lighter;
     position: absolute;
-    top: 1500px;
+    top: 1600px;
     left: 45px;
     text-shadow: -0.5px 1px 3px #0e0606ab;
 }
@@ -270,7 +271,7 @@ background-color: transparent;
     align-items: center;
     color: #FFD793;
     left: 75px; 
-    top: 2150px;
+    top: 2130px;
     cursor: pointer;
     box-shadow: 0 0 20px rgba(35, 27, 17, 0.638);
     -webkit-transition-duration: 0.3s;
@@ -366,7 +367,7 @@ background-color: #FFD793;
     left: 120px;
     font-family: 'Niagara Solid', sans-serif;
     position: absolute;
-    top: 3020px;
+    top: 3100px;
     font-weight: 100;
     text-transform: uppercase;
 
@@ -428,11 +429,11 @@ a:hover, a:active, a:focus{
     color: #FFD793;
     background-color: rgba(35, 27, 17, 0.638);
     width: 1650px;
-    height: 150px;
+    height: 120px;
     bottom:260px;
     overflow: hidden;
     margin-left: -8.5px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     padding-top:50px;
     justify-content: space-evenly;
 }
