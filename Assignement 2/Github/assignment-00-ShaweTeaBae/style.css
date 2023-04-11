@@ -1,9 +1,4 @@
 /*Start of Part 1*/
-body{
-    overflow-x: hidden;
-    width: 1690px;
-   }
-
 .Heading{
     /*Configuring The Header text attributes*/
     font-family: 'Niagara Solid', sans-serif;
@@ -56,7 +51,7 @@ body{
 .landImage{
     display:block;
     margin-left: -8.5px;
-    margin-right: 0px;
+    margin-right: -7.5px;
 }
 
 /*Bar Image resolution*/
@@ -113,7 +108,7 @@ img{
     align-items: center;
     color: #FFD793;
     left: 55px; 
-    top: 590px;
+    top: 610px;
     cursor: pointer;
     box-shadow: 0 0 20px rgba(35, 27, 17, 0.638);
     -webkit-transition-duration: 0.3s;
@@ -145,7 +140,6 @@ background-color: #FFD793;
     margin-right: -8.5px;
     padding-top: -50px;
     margin-top: -15px;
-    padding-right: -8.5px;
     image-resolution: 1920px 1080px;
 }
 
@@ -276,7 +270,7 @@ background-color: transparent;
     justify-content: center;
     align-items: center;
     color: #FFD793;
-    left: 60px; 
+    left: 75px; 
     top: 2130px;
     cursor: pointer;
     box-shadow: 0 0 20px rgba(35, 27, 17, 0.638);
@@ -319,7 +313,7 @@ background-color: #FFD793;
     color: aliceblue;
     font-size: 70px;
     position: absolute;
-    top: 2930px;
+    top: 2880px;
     left: 270px;
 }
 
@@ -374,7 +368,7 @@ background-color: #FFD793;
     font-family: 'Niagara Solid', sans-serif;
     position: absolute;
     top: 3100px;
-    font-weight: lighter;
+    font-weight: 100;
     text-transform: uppercase;
 
 }
@@ -448,7 +442,7 @@ a:hover, a:active, a:focus{
     position: absolute;
     width: 800px;
     height: 400px;
-    top:3400px;
+    top:3380px;
     left:400px;
     overflow: hidden;
 }
